@@ -15,3 +15,17 @@ var a = 1;
 var a = 2;  //다른 언어라면 에러 발생
 
 // 에러 없음 a의 값은 2
+
+var a = b = 1;
+delete a;   // 안 지워짐
+// delete b;    // 지워짐
+console.log(b);
+
+
+// 함수 선언
+function add(x, y) {
+    return x + y;
+}
+
+// 함수 참조
+cons
