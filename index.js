@@ -32,4 +32,7 @@ function add(x, y) {
 }
 
 // 함수 참조
-cons
+console.dir(add(2,4));
+
+console.log(add);
+
